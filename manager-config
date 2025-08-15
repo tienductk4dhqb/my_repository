@@ -1,1 +1,7 @@
-hello="Hello Word"
+hello="Hello World"
+# Oracle
+spring.datasource.url=jdbc:oracle:thin:@localhost:1521:xe
+spring.datasource.username=myuser
+spring.datasource.password=admin
+spring.datasource.driver-class-name=oracle.jdbc.OracleDriver
+# MySQL
