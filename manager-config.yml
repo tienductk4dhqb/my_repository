@@ -10,4 +10,4 @@ spring:
     url: jdbc:oracle:thin:@localhost:1521:xe
     username: myuser
     password: admin
-    driver-class-name: oracle.jdbc.OracleDrive
+    driver-class-name: oracle.jdbc.OracleDriver
