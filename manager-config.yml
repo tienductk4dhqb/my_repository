@@ -1,6 +1,6 @@
 spring:
     application:
-    name: manager-config
+    name: manager
 ---
 ### CONFIG DB ###
 # ORACLE
