@@ -1,11 +1,21 @@
+spring:
+    application:
+    name: manager-config
+---
 ### Config DB ###
 # Oracle
-spring.datasource.url=jdbc:oracle:thin:@localhost:1521:xe
-spring.datasource.username=myuser
-spring.datasource.password=admin
-spring.datasource.driver-class-name=oracle.jdbc.OracleDriver
+spring:
+  datasource:
+    url: jdbc:oracle:thin:@localhost:1521:xe
+    username: myuser
+    password: admin
+    driver-class-name: oracle.jdbc.OracleDriver
+---
 # MySQL
-spring.datasource.url=jdbc:mysql://localhost:3306/mydatabase
-spring.datasource.username=root
-spring.datasource.password=
-spring.datasource.driver-class-name=com.mysql.jdbc.Driver
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/mydatabase
+    username: root
+    password:
+    driver-class-name: com.mysql.jdbc.Driver
+
