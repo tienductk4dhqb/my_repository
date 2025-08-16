@@ -1,14 +1,11 @@
 spring:
   application:
     name: manager
----
 
-### CONFIG DB ###
-# ORACLE
-spring:
   config:
     activate:
       on-profile: oracle
+
   datasource:
     url: jdbc:oracle:thin:@localhost:1521:xe
     username: myuser
@@ -17,11 +14,11 @@ spring:
 
 ---
 
-# MySQL
 spring:
   config:
     activate:
       on-profile: mysql
+
   datasource:
     url: jdbc:mysql://localhost:3306/mydatabase
     username: root
