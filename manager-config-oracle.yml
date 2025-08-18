@@ -12,7 +12,7 @@ spring:
        username: myuser
        password: admin
        driver-class-name: oracle.jdbc.OracleDriver
-     oracle2:
+    oracle2:
        url: jdbc:oracle:thin:@localhost:1521:xe
        username: order_manager
        password: admin
